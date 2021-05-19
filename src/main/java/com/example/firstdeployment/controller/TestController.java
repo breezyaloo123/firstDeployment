@@ -9,6 +9,6 @@ public class TestController {
     @GetMapping(path = "/test")
     public String getString()
     {
-        return "Deployment is succeeded !!!";
+        return "Congratulations !!!";
     }
 }
